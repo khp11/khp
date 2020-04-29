@@ -20,8 +20,8 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/TheSpeedX/TBomb
-# If You Wanna Take Credits For This Code, Please Look Yourself Again
+# The Credit For This Code Goes To khp
+# we are free anonymous
 
 country_codes = {
     '93': 'AF',
@@ -240,7 +240,7 @@ def banner():
     
     clr()
     logo="""                                                  
-   ████████ ARBAZ▒    KHP    ANONYMOUS 
+   ████████ ▒    K11HP1111    ANONYMOUS 
       ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
                                          """
     print(random.choice(colors)+logo+W)
@@ -268,7 +268,7 @@ def infinite(pn, dl, ch, max):
             continue
         os.system('rm proc.xxx >/dev/null 2>&1')
         count_inf += 1
-        # os.system('echo SpeedX >> count.xxx')
+        # os.system('echo khp >> count.xxx')
         time.sleep(float(dl))
         if (count_inf > maxlim):
             exit()
@@ -720,7 +720,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To ggspeedx29@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To khp@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -734,7 +734,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By SpeedX !!                ")
+        print("              This Bomber Was Created By khp !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -761,7 +761,7 @@ def update():
     stuff_to_update = ['bomber.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/" + fl).read()
+            "https://raw.githubusercontent.com/Thekhp/TBomb/master/" + fl).read()
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
@@ -837,7 +837,7 @@ if type == 1:
     dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
-        nm = int(input("Enter Number of Messages To Send(0 For Unlimited): "))
+        nm = int(input("Enter Number of Messages To Send only for khp's friend(0 For Unlimited): "))
         dl = float(
             input("Enter Delay time (in seconds) [Recommended 2 sec ] : "))
     else:
