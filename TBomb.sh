@@ -14,7 +14,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Made By SpeedX >update.speedx
+echo This Script Was Made By khp >update.khp
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -58,7 +58,7 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
+git clone https://github.com/khp11/khp
 if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
 cp -r -f * .. > temp
@@ -91,7 +91,7 @@ echo "  [+] Easy To Use And Embed in Code"
 echo -e "\e[1;32m                   Contributors\e[1;33m"
 echo -e "\e[1;33m      [*]  SpeedX   \e[1;31m"
 echo "         [-] Mail At: anonymousl.com"
-echo -e "\e[1;33m      [*]  The Black Hacker Roxstar   \e[1;31m"
+echo -e "\e[1;33m      [*]  The anonymous   \e[1;31m"
 echo "         [-] Ping At: http://wa.me/919507856218"
 echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
 echo "         [-] Ping At: anonymous"
