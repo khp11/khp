@@ -1,3 +1,3 @@
-Verification Check: Implement an additional verification mechanism to cross-check the payment status between G2A and Bitbay before processing and delivering an order.
-Timezone Manipulation Detection: Detect and block any suspicious changes in browser timezone settings during the payment process.
-Auditing and Monitoring: Enhance logging and monitoring to detect and flag potentially fraudulent activities, such as rapid timezone changes or mismatched order statuses.
+kine1-Implement an additional verification mechanism to cross-check the payment status between G2A and Bitbay before processing and delivering an order.
+line2- Detect and block any suspicious changes in browser timezone settings during the payment process.
+line3-Enhance logging and monitoring to detect and flag potentially fraudulent activities, such as rapid timezone changes or mismatched order statuses.
