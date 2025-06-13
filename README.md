@@ -1,2 +1,5 @@
-sorrryyy..
+
 just wanted to erase  limitation
+
+THIS IS FOR EDUCATIONAL PURPOSE ONLY
+YOU CAN DO SMS BOMBINIG THROUGH IT WIHTOUT ANY LIMIT
